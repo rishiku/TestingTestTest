@@ -9,7 +9,7 @@ one:
       - run: echo "A first hello"
       - run: sleep 25
 two:
-   build:
+  build:
     docker: # See https://docs.docker.com/get-started/#docker-concepts if you are new to Docker.
       - image: circleci/node:7.10
     steps:
@@ -21,4 +21,4 @@ version: 2
 one_and_two:
     jobs:
       - one
-      - two
+      - two  
