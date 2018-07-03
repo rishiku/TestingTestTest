@@ -19,6 +19,6 @@ two:
 workflows:
 version: 2
 one_and_two:
-    jobs:
+jobs:
       - one
       - two  
